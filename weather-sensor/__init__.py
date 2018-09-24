@@ -10,7 +10,7 @@ import time
 import json
 
 SLEEP_TIME = 30
-OUTLYER_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3IiOiJhdXRoMHw1YmE4Mzg2ZmNkZDdhNzRmZjQ3ZDIyNWUiLCJrZXlOYW1lIjoid2VhdGhlcl90b2tlbiJ9.UoA5qJcenSRnnHYqHSQ1IBS5vWJx1IAtU-peqzeqp_Q"
+OUTLYER_API_KEY = ""
 OUTLYER_API_URL = "https://api2.outlyer.com/v2/accounts/tagir/series"
 
 def send_to_outlyer(metric:str , reading:float):
