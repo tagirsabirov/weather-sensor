@@ -2,7 +2,7 @@
 Exports the weather data to a CSV file for Excel analysis from Outlyer.
 
 Usage:
-        python3 export-data.py --apikey={PUT OUTLYER API KEY HERE}
+        python3 export-data.py --apikey={PUT OUTLYER API KEY HERE} --account={PUT OUTLYER ACCOUNT NAME HERE} --file={PATH TO FILE}
 
 @author Tagir Sabirov
 """
